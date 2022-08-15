@@ -1,0 +1,74 @@
+/* p цвет шрифта #757575  */
+/* h2-h3 цвет шрифта #212121  */
+/* h1 цвет шрифта #FFFFFF  */
+/* дополнительний цвет шрифта #2196F3*/
+/* footer цвет шрифта контактов rgba(255,255,255,0.6)*/
+/* главный фон #FFFFFF */
+/* footer фон #2F303A/
+/* секция наша команда фон #F5F4F4*/
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--primary-white-color: #ffffff;
+}
+body {
+	background-color: #ffffff;
+	color: #757575;
+}
+ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+/* header */
+.logo-link {
+	color: #000000;
+}
+.nav-list-item-link {
+	color: var(--title-text-color);
+}
+.nav-list-item-link:hover,
+.nav-list-item-link:focus {
+	color: var(--accent-color);
+}
+.nav-list-item-link.current {
+color: var(--accent-color);
+}
+.contacts-list-item-links {
+	color: var(--primary-text-color);
+}
+.contacts-list-item-link:focus,
+.contacts-list-item-link:hover {
+	color: var(--accent-color);
+}
+/* main*/
+/* hero */
+.hero-title{
+	color: var(--primary-white-color);
+}
+/* section qualities page stydio*/
+/* цвет черный для заголовков всех секций */ 
+.title {
+	color: var(--title-text-color)
+}
+/* section ourteam page stydio*/
+.ourteam-list-item-title {
+	color: var(--title-text-color);
+}
+
+.button {
+	background-color: #f5f4fa;
+	color: #212121;
+}
+.button:hover,
+.button:focus {
+	background-color: var(--accent-color);
+	color: var(--primary-white-color);
+}
+.logo-name {
+	color: var(--accent-color);
+}
+.address-list-item-link:focus,
+.address-list-item-link:hover {
+	color: var(--accent-color);
